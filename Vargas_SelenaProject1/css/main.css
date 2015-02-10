@@ -1,0 +1,45 @@
+/*Body*/
+body{
+		background-color: RoyalBlue;
+		opacity: 0.6;
+}
+
+/*Headings*/
+h1, h2, h3{
+		font-family: monotype corsiva;
+		font-size: 30px;
+		font-weight: lighter;
+		font-style: italic;
+		line-height: 1.4;
+		text-align: center;
+		text-shadow: 1px 1px #f00
+}
+
+/*Links*/
+a:link{
+		color: #ffffff;
+		text-decoration: none;
+}
+
+a:visited{
+		color: #ffffff;
+		text-decoration: line-through;
+}
+
+a:hover{
+		color:#000;
+		text-decoration: underline;
+}
+
+a:active{
+		color: #ff0000;
+		text-decoration: underline;
+}
+
+#page{
+		width: 960px;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+}
