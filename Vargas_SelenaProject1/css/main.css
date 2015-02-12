@@ -1,6 +1,6 @@
 /*Body*/
 body{
-		background-color: #ff0000;
+		background-color: #000;
 		opacity: 0.9;
 }
 
@@ -76,6 +76,8 @@ dl#musicVideos{
 		padding: 6px;
 		height: 100px;
 		box-shadow: 1px 1px 10px #f00;
+		background-color: #efefef;
+
 }
 
 /*Figure Captions*/
@@ -94,6 +96,7 @@ p{
 /*Unordered List*/
 ul{
 	border: 3px groove #00008b;
+	background-color: #efefef;
 	padding: 6px;
 	box-shadow: 1px 1px 10px #f00;
 }
