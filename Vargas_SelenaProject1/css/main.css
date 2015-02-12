@@ -4,6 +4,7 @@ body{
 		opacity: 0.9;
 }
 
+
 /*Headings*/
 h1, h2, h3{
 		font-family: "Monotype Corsiva", cursive;
@@ -73,6 +74,7 @@ dl#musicVideos{
 		color: #000000;
 		border: 3px groove #00008b;
 		padding: 6px;
+		height: 100px;
 		box-shadow: 1px 1px 10px #f00;
 }
 
@@ -83,20 +85,28 @@ figcaption{
 		text-decoration: underline;
 }
 
-/*Paragraphs*/
+/*Paragraphs & Font-Family = Font Face*/
 p{
+	font-family: "Oswald" , sans-serif;
 	color: #000000;
 }
 
+/*Unordered List*/
 ul{
 	border: 3px groove #00008b;
 	padding: 6px;
 	box-shadow: 1px 1px 10px #f00;
 }
 
+/*Unordered list navigation*/
 ul#listItems li{
 	display: inline-block;
 	letter-spacing: 2px;
 	text-align: center;
 	width: 180px;
 }
+
+/*p a#top{*/
+	/*font-family: "impact", fantasy;*/
+/*}*/
+
