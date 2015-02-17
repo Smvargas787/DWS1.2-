@@ -1,0 +1,89 @@
+body {
+	font-size: 0.8em;
+	font-family: Arial, Verdana, Sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+}
+		
+#navigation ul {
+	list-style-type: none;
+	text-align: center;
+	width: 625px;
+	border-top: 2px solid  #000;
+	border-bottom: 1px solid #000;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content {
+	width: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: auto;
+}
+
+#content img{
+		float: left;
+		margin: 20px;
+}	
+
+#column1of2 , #column2of2{
+		width: 280px;
+		float: left;
+		margin: 10px;
+}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+}
+
+#page{
+		width: 960px;
+		border: 4px double #000;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+
+#logo{
+		width: 303px; 
+		margin-top: 10px;
+		margin-bottom: 25px;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+li{
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 3px;
+		margin-left: 3px;
+		display: inline-block;
+		padding: 5px;
+}
+
+h1{
+		font-size: 1.5px;
+}
+
+h2{
+		font-size: 1.33px;
+}
+
+h3{
+		font-size: 1.25px;
+}
+
