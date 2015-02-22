@@ -1,0 +1,193 @@
+/*Body*/
+body{
+		background-color: #000;
+		opacity: 0.9;
+		background-image: url("../images/prtrees.jpg");
+		background-repeat: round;
+		background-position: 0px 0px;
+}
+
+
+/*Headings*/
+h1, h2, h3{
+		font-family: "Monotype Corsiva", cursive;
+		font-size: 1.875em;
+		font-weight: lighter;
+		font-style: italic;
+		line-height: 1.4;
+		text-align: center;
+		text-shadow: 1px 1px 10px #f00;
+		color:#00008b;
+}
+
+h1{
+		font-size: 3.300em;
+		background-image: url("../images/nycskyline.png");
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		height: 150px;
+		color: #eeffff;
+}
+/*Links*/
+a:link{
+		color: #00008b;
+		text-decoration: none;
+}
+
+a:visited{
+		color: #00bfff;
+		text-decoration: line-through;
+}
+
+a:hover{
+		color:#f00;
+		text-decoration: underline;
+}
+
+a:active{
+		color: #000000;
+		text-decoration: underline;
+}
+
+/*Page Container*/
+#page{
+		width: 70%;
+		margin-top: 1.041%;
+		margin-bottom: 1.041%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 5px dotted #00008b;
+		background-color: #ffffff;
+		padding: 10px;
+		border-radius: 50px;
+
+}
+
+/*Hit Singles*/
+ul#songs, #songs2{
+		/*width: 90%;*/
+		/*margin-top: 10px;*/
+		/*margin-bottom: 10px;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+		color: #000000;
+		list-style-type: square;
+		/*clear: both;*/
+		background:radial-gradient(#ffffff, #ff0000);
+		opacity: 0.9;
+
+
+}
+
+/*Music Videos*/
+dl#musicVideos{
+		width: 90%;
+		/*margin-top: 10px;*/
+		/*margin-bottom: 10px;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+		color: #000000;
+		border: 3px groove #00008b;
+		padding: 20px;
+		height: 100px;
+		box-shadow: 1px 1px 10px #f00;
+		background-color: #efefef;
+		background:radial-gradient(#ffffff, #ff0000);
+		opacity: 0.9;
+
+}
+
+/*Figure Captions*/
+figcaption{
+		font-family: "verdana", sans-serif;
+		color: #000;
+		text-decoration: underline;
+		border: 3px groove #eff;
+		padding: 5px;
+		height: 50px;
+		box-shadow: 1px 1px 10px #f00;
+		background-color: #00bfff;
+		width: 15.6%;
+}
+
+/*Paragraphs & Font-Family = Font Face*/
+p{
+		font-family: "Oswald" , sans-serif;
+		color: #000000;
+}
+
+/*Unordered List*/
+ul {
+		border: 3px groove #00008b;
+		background-color: #efefef;
+		padding: 6px;
+		box-shadow: 1px 1px 10px #f00;
+}
+
+
+/*Unordered list navigation*/
+ul#listItems li{
+		display: inline-block;
+		letter-spacing: 2px;
+		text-align: center;
+		width: 18.75%;
+
+}
+/*Hit Singles & Music Videos*/
+#column1, #column3{
+		/*width: 1000px;*/
+		float: left;
+		margin-left: 10.41%;
+		padding: 50px;
+}
+/*Footer*/
+#footer{
+		width: 70%;
+		margin-top: 1.041%;
+		margin-bottom: 1.041%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 5px dotted #00008b;
+		background-color: #ffffff;
+		padding: 10px;
+		border-radius: 50px;
+		text-align: center;
+
+}
+/*Gallery*/
+#tribute {
+	 	clear: left;
+ }
+
+
+/*#column1{*/
+	/*float: left;*/
+	/*width: 589px;*/
+	/*margin: 10px;*/
+	/*padding: 10px;*/
+	/*clear: right;*/
+	/*border: 3px double #000000;*/
+
+/*}*/
+
+/*#column2{*/
+	/*border: 3px double #000000;*/
+	/*Overflow: auto;*/
+	/*padding: 10px;*/
+	/*margin: 10px;*/
+
+
+/*}*/
+
+/*#column3{*/
+	/*width: 72%;*/
+	/*clear: left;*/
+	/*margin-right: 50px;*/
+
+/*}*/
+
+/*.musicVideos{*/
+	/*float:left;*/
+	/*width: 700px;*/
+/*}*/
+
