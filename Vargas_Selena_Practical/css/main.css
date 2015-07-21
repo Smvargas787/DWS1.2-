@@ -1,0 +1,165 @@
+/*------ Document -----*/
+/*Body */
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background-color: #797267;
+}
+
+/*Heading Titles*/
+h2{
+	color: #423b2e;
+	font-size: 1.5em;
+}
+
+/*Columns*/
+#column1of2, #column2of2{
+	float: left;
+	padding-left: 25px;
+	padding-bottom: 45px;
+}
+
+#column1of2{
+	width: 450px;
+	margin-left: 64px;
+}
+
+#column1of2 h2, #column2of2 h2{
+	border-bottom: 2px solid #000000;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+
+#column2of2 {
+	width: 290px;
+	margin-left: 44px;
+}
+
+
+#column2of2 p{
+	border-bottom: 2px solid #000000;
+	margin-top: 0;
+}
+
+#column2of2 , #column1of2 img{
+	float: left;
+	clear: right;
+}
+
+#column2of2 img{
+	border: 4px solid #ffffff;
+	margin: 0 15px 20px 0;
+}
+
+
+/*section#column1of2, section#column2of2{*/
+	/*float: left;*/
+	/*margin-left: 3%;*/
+	/*padding: 10px;*/
+/*}*/
+
+
+
+/*.page-flip{*/
+	/*background-image: url("../images/page-flip.gif");*/
+	/*background-repeat: no-repeat;*/
+	/**/
+	/*width: 242px;*/
+
+/*}*/
+
+/*Main Content*/
+#wrapper{
+	background-image: url("../images/main-content-bg.jpg");
+	overflow: auto;
+	float: left;
+}
+
+/*Navigation*/
+nav li{
+	display:inline;
+	padding: 10px;
+	color: #423b2e;
+}
+
+nav ul{
+	float: right;
+	clear: both;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+nav ul #current{
+	color: #bf3102;
+}
+
+li a{
+	color: #423b2e;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*nav li{*/
+	/*display: inline-block;*/
+	/*text-align: right;*/
+	/*width:100%;*/
+/*}*/
+
+/*Header*/
+header{
+	background-image: url("../images/header-bg.jpg");
+	width: 960px;
+	height: 210px;
+	overflow: auto;
+}
+
+header h1{
+	background-image: url("../images/logo.gif");
+	width: 317px;
+	height: 71px;
+	text-indent: -999px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: 100px;
+	margin-right: 100px;
+	float: left;
+	clear: both;
+}
+
+/*Banner*/
+div#banner{
+	background-image: url("../images/banner.jpg");
+	background-position: 0px 0px;
+	padding: 0 20px;
+	margin: 30px;
+	overflow: auto;
+	width: 855px;
+	height: 200px;
+}
+
+/*Footer*/
+footer{
+	background-image: url("../images/footer-bg.jpg");
+	width: 960px;
+	height: 72px;
+	overflow:auto;
+}
+
+footer p{
+	text-align: center;
+	color: #423b2e;
+	font-size: 0.9em;
+}
+
+/*Sections*/
+section.page-flip{
+	background: url("../images/page-flip.gif");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
